@@ -1,0 +1,49 @@
+# Python virtual environment
+venv/
+
+# Python bytecode
+*.pyc
+*.pyo
+__pycache__/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+debug.log
+
+# AWS credentials
+~/.aws/credentials
+~/.aws/config
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Temporary files
+*.tmp
+*.bak
+
+# Archives and packages
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.egg-info/
+
+# Testing outputs
+.coverage
+*.pytest_cache/
+nosetests.xml
+junit.xml
+htmlcov/
+
+# Dependency directories
+__pycache__/

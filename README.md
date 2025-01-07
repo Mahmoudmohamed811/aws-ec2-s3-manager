@@ -116,5 +116,6 @@ Contributions are welcome! If you'd like to improve this project, please:
 5. Open a pull request.
 
 ## Acknowledgements
-- AWS Boto3 Documentation
-- CloudWatch Metrics
+- [**AWS Boto3 Documentation**](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html).
+  
+- [**CloudWatch Metrics**](https://docs.aws.amazon.com/cloudwatch/index.html).

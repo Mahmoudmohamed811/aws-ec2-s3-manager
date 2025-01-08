@@ -8,7 +8,7 @@ class EC2Manager:
     def create_instance(
         self,
         ami_id,
-        security_group_ids,
+        security_group_ids=None,
         instance_type="t2.micro",
         key_name="vockey",
         min_count=1,
@@ -38,8 +38,11 @@ class EC2Manager:
                 "KeyName": key_name,
                 "MinCount": min_count,
                 "MaxCount": max_count,
-                "SecurityGroupIds": security_group_ids,
+
             }
+
+            if security_group_ids:
+                run_instances_params["SecurityGroupIds"] = security_group_ids
 
             if tags:
                 run_instances_params["TagSpecifications"] = [
